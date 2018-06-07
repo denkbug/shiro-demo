@@ -4,14 +4,12 @@ import com.denk.demo.dao.ShiroRoleDao;
 import com.denk.demo.dao.ShiroUserDao;
 import com.denk.demo.model.ShiroRole;
 import com.denk.demo.model.ShiroUser;
-import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.HashSet;
